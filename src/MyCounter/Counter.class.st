@@ -42,3 +42,9 @@ Counter >> increment12 [
 
 	count := count + 12
 ]
+
+{ #category : #accessing }
+Counter >> increment2 [
+
+	count := count + 2
+]
