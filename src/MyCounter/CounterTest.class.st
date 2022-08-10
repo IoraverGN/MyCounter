@@ -57,3 +57,14 @@ c increment12; increment12.
 
 self assert: c count equals: 31. 
 ]
+
+{ #category : #tests }
+CounterTest >> testIncrement2 [ 
+
+	|c| 
+c := Counter new.
+c count: 7.
+c increment2; increment2.
+
+self assert: c count equals: 11. 
+]
