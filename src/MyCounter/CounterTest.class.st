@@ -1,6 +1,9 @@
 Class {
 	#name : #CounterTest,
 	#superclass : #TestCase,
+	#instVars : [
+		'count'
+	],
 	#category : #MyCounter
 }
 
